@@ -434,7 +434,7 @@ def create_knowledge_graph_visualization(graph_data, target_idx, categories, pre
         x=edge_mid_x, y=edge_mid_y,
         mode='text',
         text=edge_labels,
-        textfont=dict(size=6, color='#666'),
+        textfont=dict(size=8, color='#444'),
         hoverinfo='none',
         showlegend=False
     )
