@@ -1,0 +1,143 @@
+# Research Compass GNN - Complete Requirements
+# Python 3.9+ required
+
+# ========================================
+# CORE DEPENDENCIES
+# ========================================
+
+# Web UI
+gradio>=4.0.0
+
+# Graph visualization
+networkx>=3.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# ========================================
+# GNN & MACHINE LEARNING
+# ========================================
+
+# Deep learning framework
+torch>=2.0.0
+
+# Graph Neural Networks
+torch-geometric>=2.3.0
+
+# PyG dependencies (install separately for CPU/GPU)
+# See: https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+# For CPU: pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+# For CUDA 11.8: pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+
+# Machine learning utilities
+scikit-learn>=1.3.0
+
+# ========================================
+# TEXT PROCESSING & NLP
+# ========================================
+
+# Sentence embeddings (for semantic similarity)
+sentence-transformers>=2.2.0
+
+# BibTeX parsing
+bibtexparser>=1.4.0
+
+# TF-IDF and text processing (included in scikit-learn)
+
+# ========================================
+# VISUALIZATION
+# ========================================
+
+# Charts and plots
+matplotlib>=3.7.0
+plotly>=5.18.0
+seaborn>=0.12.0
+
+# Interactive network graphs
+pyvis>=0.3.0
+
+# Dimensionality reduction for visualization
+umap-learn>=0.5.3
+
+# ========================================
+# COMMUNITY DETECTION & GRAPH ALGORITHMS
+# ========================================
+
+# Community detection algorithms
+python-louvain>=0.16
+
+# Graph algorithms (included in networkx)
+
+# ========================================
+# DOCUMENT PROCESSING (Optional)
+# ========================================
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Word documents
+python-docx>=1.0.0
+
+# ========================================
+# UTILITIES
+# ========================================
+
+# Configuration
+pyyaml>=6.0.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Markdown rendering
+markdown>=3.4.0
+
+# Tabular data formatting
+tabulate>=0.9.0
+
+# ========================================
+# DEVELOPMENT & TESTING (Optional)
+# ========================================
+
+# Testing
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
+
+# Code formatting
+# black>=23.0.0
+# flake8>=6.0.0
+
+# ========================================
+# INSTALLATION INSTRUCTIONS
+# ========================================
+#
+# Quick Start:
+#   1. Create virtual environment: python -m venv venv
+#   2. Activate: source venv/bin/activate  (Linux/Mac)  OR  venv\Scripts\activate  (Windows)
+#   3. Install: pip install -r requirements.txt
+#   4. Install PyG deps: pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+#   5. Run: python app.py
+#
+# Detailed Instructions:
+#
+# Step 1: Install base requirements
+#   pip install -r requirements.txt
+#
+# Step 2: Install PyG dependencies for your hardware
+#
+#   For CPU:
+#   pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+#
+#   For CUDA 11.8 (if you have NVIDIA GPU):
+#   pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+#
+#   For CUDA 12.1:
+#   pip install pyg-lib torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu121.html
+#
+# Step 3: Run the application
+#   python app.py
+#
+# Optional: For development
+#   pip install pytest pytest-cov black flake8
+#

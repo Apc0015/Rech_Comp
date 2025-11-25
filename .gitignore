@@ -1,0 +1,190 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# *.ipynb  # REMOVED: We want to include notebooks for academic project
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Type stubs
+*.pyi
+
+# Project-specific data directories
+data/cache/
+data/processed/
+data/raw/*.pdf
+data/raw/*.txt
+!data/raw/.gitkeep
+
+# Outputs
+outputs/reports/*
+outputs/visualizations/*
+outputs/exports/*
+!outputs/reports/.gitkeep
+!outputs/visualizations/.gitkeep
+!outputs/exports/.gitkeep
+
+# Indices
+data/indices/*.index
+data/indices/*.json
+!data/indices/.gitkeep
+
+# Neo4j local data
+neo4j_data/
+.neo4j/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Package files
+*.tar.gz
+*.whl
+*.zip
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+credentials.json
+secrets.yaml
+
+# Model files (too large for git)
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.h5
+*.pt
+*.pth
+*.bin
+*.h5
+
+# Cache directories
+.cache/
+*.cache/
+
+# Local config overrides
+config/local_config.yaml
+config/override.yaml
+
+# Pre-commit
+.pre-commit-config.yaml.backup
+
+# Backup files
+*.bak
+*.backup
+*.pid
+
+# Results and experiments
+results/
+experiments/results/
+ablation_results/
+comparison_results/
+
+# Downloaded datasets
+data/Cora/
+data/CiteSeer/
+data/PubMed/
+data/Planetoid/
+
+# Checkpoints
+checkpoints/
+*.ckpt
